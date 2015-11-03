@@ -19,10 +19,7 @@
 
 seq.|날짜|내용
 ---|---|---
-1|2015/11/03|오리엔테이션( 김무성 )<br/>
-(가상머신)우분투 OS에서 BioPython과 Theano 설치 ( 지용기)<br/>
-(Docker)Mac에서 BioPython과 Theano 설치 (박세진)
-(정광윤)
+1|2015/11/03|오리엔테이션( 김무성 )<br/>(가상머신)우분투 OS에서 BioPython과 Theano 설치 ( 지용기)<br/>(Docker)Mac에서 BioPython과 Theano 설치 (박세진)
 2|2015/11/10|(파이션 기초)  2장 변수,표현식,문장와  3장 조건부실행,  4장 함수<br/>(Theano)  Theano 기초 - NumPy refresher과 Baby Steps - Algebra
 3|2015/11/17|(파이션 기초) 5장,  6장 문자열과 7장 파일<br/>(Theano)   Theano 기초 - More Examples
 4|2015/11/24|(파이션 기초)  8장 리스트와 9장 딕셔너리, 10장 튜플<br/>(Theano)  Theano 기초 - Graph Structures과 Printing/Drawing Theano graphs
