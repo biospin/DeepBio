@@ -1,5 +1,7 @@
 # DeepBio
 
+![](https://github.com/biospin/DeepBio/blob/master/main.jpg)
+
 ## 스터디 정보
 파이썬을 이용한 바이오인포매틱스 + 딥러닝에 대한 스터디입니다.
 
