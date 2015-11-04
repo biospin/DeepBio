@@ -14,6 +14,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - Theano 교재 1 -  Theano 기초 ( http://deeplearning.net/software/theano/tutorial/ )
 - Theano 교재 2 -  Deeplearning ( http://deeplearning.net/tutorial/deeplearning.pdf  )
 
+[foo]: http://example.com/  "Optional Title Here"
+
 ## Schedule
 
 ### Part 1.
