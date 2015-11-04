@@ -18,16 +18,16 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 
 ### Part 1.
 
-1. 장소: 토즈 신촌 비즈센터 (http://www.toz.co.kr/branch/main/index.htm?id=7)
+1. 장소: 토즈 아트레온점 ( http://www.toz.co.kr/branch/main/index.htm?id=6 )
 2. 매주 화요일, 저녁 7시 30분~10시
 3. 시작: 2015년11월 3일
 
 seq.|날짜|내용
 ---|---|---
 1|2015/11/03|오리엔테이션( 김무성 )<br/>(가상머신)우분투 OS에서 BioPython과 Theano 설치 ( 지용기)<br/>(Docker)Mac에서 BioPython과 Theano 설치 (박세진)
-2|2015/11/10|(파이션 기초)  2장 변수,표현식,문장와  3장 조건부실행,  4장 함수<br/>(Theano)  Theano 기초 - NumPy refresher과 Baby Steps - Algebra
-3|2015/11/17|(파이션 기초) 5장,  6장 문자열과 7장 파일<br/>(Theano)   Theano 기초 - More Examples
-4|2015/11/24|(파이션 기초)  8장 리스트와 9장 딕셔너리, 10장 튜플<br/>(Theano)  Theano 기초 - Graph Structures과 Printing/Drawing Theano graphs
+2|2015/11/10|(파이션 기초)  2장 변수,표현식,문장와  3장 조건부실행(안효준), 4장 함수(이찬희 )<br/>(Theano)  Theano 기초 - NumPy refresher과 Baby Steps - Algebra(박세진)
+3|2015/11/17|(파이션 기초) 5장,  6장 문자열(이찬희), 7장 파일(조익연)<br/>(Theano)   Theano 기초 - More Examples(안효준)
+4|2015/11/24|(파이션 기초)  8장 리스트와 9장 딕셔너리(김미송), 10장 튜플(성민경)<br/>(Theano)  Theano 기초 - Graph Structures과 Printing/Drawing Theano graphs(최홍용)
 
 
 ### Part 2.
