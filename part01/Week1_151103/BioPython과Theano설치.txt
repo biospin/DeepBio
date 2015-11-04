@@ -1,0 +1,106 @@
+####################################################
+#우분투에서 BioPython과 Theano설치
+####################################################
+## 준비물
+Virtualbox 5.x 설치 : https://www.virtualbox.org/
+
+PuTTY 설치 : http://www.putty.org/
+
+VirtualBox 이미지 1(우분투만 설치된 버전) : https://drive.google.com/drive/folders/0B6bSLTlVnagfX09OeUh4d09WcXc  안의 ubuntu64_deepbio_01.ova
+
+VirtualBox 이미지 2( 모두 설치된 버전 ): https://drive.google.com/drive/folders/0B6bSLTlVnagfX09OeUh4d09WcXc  안의 ubuntu64_deepbio_02.ova
+
+PuTTY에서  192.168.56.101 로 접속
+ID : deepbio
+PW : deepbio
+
+####################################################
+# BioPython설치 
+####################################################
+
+# 아나콘다 설치
+https://www.continuum.io/downloads 에서 리눅스 64bit용  아나콘다 다운로드
+
+wget https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda-2.3.0-Linux-x86_64.sh
+
+chmod +x Anaconda-2.3.0-Linux-x86_64.sh
+# 설치과정에서 다 YES 입력
+./Anaconda-2.3.0-Linux-x86_64.sh
+source ~/.bashrc
+
+# Biopython 1.65 설치
+conda create -n bioinformatics biopython biopython=1.65 python=2.7
+source activate bioinformatics
+conda install scipy matplotlib ipython-notebook binstar pip
+conda install pandas cython numba scikit-learn seaborn
+conda install -c https://conda.binstar.org/bcbio pysam
+conda install -c https://conda.binstar.org/simupop simuPOP
+
+# R의 최신버전 설치, bioconductor 설치
+sudo apt-get remove r-base-core
+sudo vi /etc/apt/sources.list  
+deb http://cran.rstudio.com/bin/linux/ubuntu trusty/  # 맨아래에 추가함.
+
+gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+gpg -a --export E084DAB9 | sudo apt-key add -
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install r-base
+sudo apt-get install r-bioc-biobase r-cran-ggplot2
+
+# R에 ggplot2, gridExtra 설치
+R
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+install.packages("ggplot2")
+install.packages("gridExtra")
+
+# R-to-Python bridge
+pip install rpy2
+
+# ipython 실행
+mkdir -p ~/note/biopython/
+mkdir -p ~/note/theano/
+
+# notebook 실행 스크립트 생성
+echo ' source activate bioinformatics '  >>  ~/biopython_inotebook.sh
+echo ' ipython notebook --ip 192.168.56.101 '  >>  ~/biopython_inotebook.sh
+chmod +x biopython_inotebook.sh
+./biopython_inotebook.sh
+
+ http://192.168.56.101:8888/ 로 접속함
+ 
+####################################################
+# Theano 설치
+####################################################
+sudo apt-get update 
+sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ git libatlas3gf-base libatlas-dev
+
+sudo apt-get install python-virtualenv
+virtualenv --system-site-packages -p python2.7 theano-env
+source theano-env/bin/activate
+
+sudo pip install Theano
+
+# 설치 확인 테스트
+python -c "import numpy; numpy.test()"   # NumPy (~30s) 
+python -c "import scipy; scipy.test()"  # SciPy (~1m)
+python -c "import theano; theano.test()"  # Theano (~30m)
+
+# 성능 확인
+python `python -c "import os, theano; print os.path.dirname(theano.__file__)"`/misc/check_blas.py
+
+sudo apt-get install libzmq-dev
+sudo pip install ipython==3.2.1
+sudo pip install jinja2 sphinx pyzmq pygments tornado nose markupsafe
+sudo pip install ipython[notebook] 
+sudo pip install jupyter
+
+# notebook 실행 스크립트 생성
+echo ' source theano-env/bin/activate '  >>  ~/theano_inotebook.sh
+echo ' ipython notebook --ip 192.168.56.101 --port 8081'  >>  ~/theano_inotebook.sh
+chmod +x theano_inotebook.sh
+./theano_inotebook.sh
+
+
