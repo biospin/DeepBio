@@ -29,7 +29,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 
 seq.|날짜|내용|후기
 ---|---|---|---
-1|2015/11/03|오리엔테이션( 김무성 )<br/> [ (가상머신)우분투 OS에서 BioPython과 Theano 설치](https://github.com/biospin/DeepBio/blob/master/part01/Week1_151103/BioPython%EA%B3%BCTheano%EC%84%A4%EC%B9%98.txt) ( 지용기)<br/>[(Docker)Mac에서 BioPython과 Theano 설치](https://docs.google.com/presentation/d/1aigPAqOuY7x2X8sJ0h-I3UQVx7vFaDzye9apPYrSB7k/pub?start=true&loop=false&delayms=3000&slide=id.g7289f31dd_0_121) (박세진)  | [남광우님] (https://www.facebook.com/groups/biospin/permalink/770735179703033/) <br/> [스터디 사진](https://www.facebook.com/groups/biospin/permalink/770110696432148/)
+1|2015/11/03|오리엔테이션( 김무성 )<br/> [ (가상머신)우분투 OS에서 BioPython과 Theano 설치](https://github.com/biospin/DeepBio/blob/master/part01/Week1_151103/BioPython%EA%B3%BCTheano%EC%84%A4%EC%B9%98.txt) ( 지용기)<br/>[(Docker)Mac에서 BioPython과 Theano 설치](https://docs.google.com/presentation/d/1aigPAqOuY7x2X8sJ0h-I3UQVx7vFaDzye9apPYrSB7k/pub?start=true&loop=false&delayms=3000&slide=id.g7289f31dd_0_121) (박세진)  | [남광우님] (https://www.facebook.com/groups/biospin/permalink/770735179703033/) <br/> [먹방 사진](https://www.facebook.com/groups/biospin/permalink/770110696432148/)
 2|2015/11/10|(파이션 기초)  2장 변수,표현식,문장와  3장 조건부실행(안효준), 4장 함수(이찬희 )<br/>(Theano)  Theano 기초 - NumPy refresher과 Baby Steps - Algebra(박세진)  |   xxx님 
 3|2015/11/17|(파이션 기초) 5장,  6장 문자열(이찬희), 7장 파일(조익연)<br/>(Theano)   Theano 기초 - More Examples(안효준) |   xxx님
 4|2015/11/24|(파이션 기초)  8장 리스트와 9장 딕셔너리(김미송), 10장 튜플(성민경)<br/>(Theano)  Theano 기초 - Graph Structures과 Printing/Drawing Theano graphs(최홍용)  |   xxx님
