@@ -2,49 +2,49 @@
 
 <img src="https://github.com/biospin/DeepBio/blob/master/main.jpg" width="500" height="300" />
 
-## ½ºÅÍµğ Á¤º¸
-ÆÄÀÌ½ãÀ» ÀÌ¿ëÇÑ ¹ÙÀÌ¿ÀÀÎÆ÷¸ÅÆ½½º + µö·¯´×¿¡ ´ëÇÑ ½ºÅÍµğÀÔ´Ï´Ù.
+## ìŠ¤í„°ë”” ì •ë³´
+íŒŒì´ì¬ì„ ì´ìš©í•œ ë°”ì´ì˜¤ì¸í¬ë§¤í‹±ìŠ¤ + ë”¥ëŸ¬ë‹ì— ëŒ€í•œ ìŠ¤í„°ë””ì…ë‹ˆë‹¤.
 
-## °øÀ¯Æú´õ 
+## ê³µìœ í´ë” 
 https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 
-## ±³Àç Á¤º¸
-- ÆÄÀÌ¼Ç ±âÃÊ - Á¤º¸±³À°À» À§ÇÑ ÆÄÀÌ½ã (  http://python.xwmooc.org/  )
-- bioPython ±³Àç - Bioinformatics with Python Cookbook ( http://www.amazon.com/gp/aw/d/1782175113 )
-- Theano ±³Àç 1 -  Theano ±âÃÊ ( http://deeplearning.net/software/theano/tutorial/ )
-- Theano ±³Àç 2 -  Deeplearning ( http://deeplearning.net/tutorial/deeplearning.pdf  )
+## êµì¬ ì •ë³´
+- íŒŒì´ì…˜ ê¸°ì´ˆ - ì •ë³´êµìœ¡ì„ ìœ„í•œ íŒŒì´ì¬ (  http://python.xwmooc.org/  )
+- bioPython êµì¬ - Bioinformatics with Python Cookbook ( http://www.amazon.com/gp/aw/d/1782175113 )
+- Theano êµì¬ 1 -  Theano ê¸°ì´ˆ ( http://deeplearning.net/software/theano/tutorial/ )
+- Theano êµì¬ 2 -  Deeplearning ( http://deeplearning.net/tutorial/deeplearning.pdf  )
 
 ## Schedule
 
 ### Part 1.
 
-1. Àå¼Ò: ÅäÁî ¾ÆÆ®·¹¿ÂÁ¡ ( http://www.toz.co.kr/branch/main/index.htm?id=6 )
-2. ¸ÅÁÖ È­¿äÀÏ, Àú³á 7½Ã 30ºĞ~10½Ã
-3. ½ÃÀÛ: 2015³â11¿ù 3ÀÏ
+1. ì¥ì†Œ: í† ì¦ˆ ì•„íŠ¸ë ˆì˜¨ì  ( http://www.toz.co.kr/branch/main/index.htm?id=6 )
+2. ë§¤ì£¼ í™”ìš”ì¼, ì €ë… 7ì‹œ 30ë¶„~10ì‹œ
+3. ì‹œì‘: 2015ë…„11ì›” 3ì¼
 
-seq.|³¯Â¥|³»¿ë
+seq.|ë‚ ì§œ|ë‚´ìš©
 ---|---|---
-1|2015/11/03|¿À¸®¿£Å×ÀÌ¼Ç( ±è¹«¼º )<br/> [ (°¡»ó¸Ó½Å)¿ìºĞÅõ OS¿¡¼­ BioPython°ú Theano ¼³Ä¡](https://github.com/biospin/DeepBio/blob/master/part01/Week1_151103/BioPython%EA%B3%BCTheano%EC%84%A4%EC%B9%98.txt) ( Áö¿ë±â)<br/>[(Docker)Mac¿¡¼­ BioPython°ú Theano ¼³Ä¡](https://docs.google.com/presentation/d/1aigPAqOuY7x2X8sJ0h-I3UQVx7vFaDzye9apPYrSB7k/pub?start=true&loop=false&delayms=3000&slide=id.g7289f31dd_0_121) (¹Ú¼¼Áø)
-2|2015/11/10|(ÆÄÀÌ¼Ç ±âÃÊ)  2Àå º¯¼ö,Ç¥Çö½Ä,¹®Àå¿Í  3Àå Á¶°ÇºÎ½ÇÇà(¾ÈÈ¿ÁØ), 4Àå ÇÔ¼ö(ÀÌÂùÈñ )<br/>(Theano)  Theano ±âÃÊ - NumPy refresher°ú Baby Steps - Algebra(¹Ú¼¼Áø)
-3|2015/11/17|(ÆÄÀÌ¼Ç ±âÃÊ) 5Àå,  6Àå ¹®ÀÚ¿­(ÀÌÂùÈñ), 7Àå ÆÄÀÏ(Á¶ÀÍ¿¬)<br/>(Theano)   Theano ±âÃÊ - More Examples(¾ÈÈ¿ÁØ)
-4|2015/11/24|(ÆÄÀÌ¼Ç ±âÃÊ)  8Àå ¸®½ºÆ®¿Í 9Àå µñ¼Å³Ê¸®(±è¹Ì¼Û), 10Àå Æ©ÇÃ(¼º¹Î°æ)<br/>(Theano)  Theano ±âÃÊ - Graph Structures°ú Printing/Drawing Theano graphs(ÃÖÈ«¿ë)
+1|2015/11/03|ì˜¤ë¦¬ì—”í…Œì´ì…˜<br/> [ (ê°€ìƒë¨¸ì‹ )ìš°ë¶„íˆ¬ OSì—ì„œ BioPythonê³¼ Theano ì„¤ì¹˜](https://github.com/biospin/DeepBio/blob/master/part01/Week1_151103/BioPython%EA%B3%BCTheano%EC%84%A4%EC%B9%98.txt) ( ì§€ìš©ê¸°)<br/>[(Docker)Macì—ì„œ BioPythonê³¼ Theano ì„¤ì¹˜](https://docs.google.com/presentation/d/1aigPAqOuY7x2X8sJ0h-I3UQVx7vFaDzye9apPYrSB7k/pub?start=true&loop=false&delayms=3000&slide=id.g7289f31dd_0_121) (ë°•ì„¸ì§„)
+2|2015/11/10|(íŒŒì´ì…˜ ê¸°ì´ˆ)  2ì¥ ë³€ìˆ˜,í‘œí˜„ì‹,ë¬¸ì¥ì™€  3ì¥ ì¡°ê±´ë¶€ì‹¤í–‰(ì•ˆíš¨ì¤€), 4ì¥ í•¨ìˆ˜(ì´ì°¬í¬ )<br/>(Theano)  Theano ê¸°ì´ˆ - NumPy refresherê³¼ Baby Steps - Algebra(ë°•ì„¸ì§„)
+3|2015/11/17|(íŒŒì´ì…˜ ê¸°ì´ˆ) 5ì¥,  6ì¥ ë¬¸ìì—´(ì´ì°¬í¬), 7ì¥ íŒŒì¼(ì¡°ìµì—°)<br/>(Theano)   Theano ê¸°ì´ˆ - More Examples(ì•ˆíš¨ì¤€)
+4|2015/11/24|(íŒŒì´ì…˜ ê¸°ì´ˆ)  8ì¥ ë¦¬ìŠ¤íŠ¸ì™€ 9ì¥ ë”•ì…”ë„ˆë¦¬(ê¹€ë¯¸ì†¡), 10ì¥ íŠœí”Œ(ì„±ë¯¼ê²½)<br/>(Theano)  Theano ê¸°ì´ˆ - Graph Structuresê³¼ Printing/Drawing Theano graphs(ìµœí™ìš©)
 
 
 ### Part 2.
-seq.|³¯Â¥|³»¿ë
+seq.|ë‚ ì§œ|ë‚´ìš©
 ---|---|---
-1|2015/12/01|(ÆÄÀÌ¼Ç ±âÃÊ)  11Àå Á¤±ÔÇ¥Çö½Ä, 12Àå ³×Æ®¿öÅ© ÇÁ·Î±×·¥°ú 13Àå À¥¼­ºñ½º<br/>(Theano)   Theano ±âÃÊ -  Derivatives in Theano
-2|2015/12/08|(ÆÄÀÌ¼Ç ±âÃÊ) 14Àå µ¥ÀÌÅÍº£ÀÌ½º¿Í SQL, 15Àå µ¥ÀÌÅÍ ½Ã°¢È­¿Í 16Àå  <br/>(Theano)  Theano ±âÃÊ -  Configuration Settings and Compiling Modes ¿Í Loading and Saving
-3|2015/12/15|(bioPython ) 1Àå: Python and the Surrounding Software Ecology <br/>(Theano) Theano ±âÃÊ - Conditions°ú Loop
-4|2015/12/22|(bioPython ) 2Àå: Next-generation Sequencing <br/>(Theano) Theano ±âÃÊ - Sparse °ú Using the GPU 
+1|2015/12/01|(íŒŒì´ì…˜ ê¸°ì´ˆ)  11ì¥ ì •ê·œí‘œí˜„ì‹, 12ì¥ ë„¤íŠ¸ì›Œí¬ í”„ë¡œê·¸ë¨ê³¼ 13ì¥ ì›¹ì„œë¹„ìŠ¤<br/>(Theano)   Theano ê¸°ì´ˆ -  Derivatives in Theano
+2|2015/12/08|(íŒŒì´ì…˜ ê¸°ì´ˆ) 14ì¥ ë°ì´í„°ë² ì´ìŠ¤ì™€ SQL, 15ì¥ ë°ì´í„° ì‹œê°í™”ì™€ 16ì¥  <br/>(Theano)  Theano ê¸°ì´ˆ -  Configuration Settings and Compiling Modes ì™€ Loading and Saving
+3|2015/12/15|(bioPython ) 1ì¥: Python and the Surrounding Software Ecology <br/>(Theano) Theano ê¸°ì´ˆ - Conditionsê³¼ Loop
+4|2015/12/22|(bioPython ) 2ì¥: Next-generation Sequencing <br/>(Theano) Theano ê¸°ì´ˆ - Sparse ê³¼ Using the GPU 
 
 
 ### Part 3.
-seq.|³¯Â¥|³»¿ë
+seq.|ë‚ ì§œ|ë‚´ìš©
 ---|---|---
-1|2015/12/29|(bioPython )   3Àå: Working with Genomes  <br/>(Theano)  Deeplearning  - 3Àå GETTING STARTED 
-2|2016/01/05|(ÆÄÀÌ¼Ç ±âÃÊ)(bioPython ) 4Àå: Population Genetics <br/> (Theano)  Deeplearning  - 4Àå Classifying MNIST digits using Logistic Regression  <br/>(½Ç½À) ¾Ï È¯ÀÚ RNAÁ¤º¸¸¦ È°¿ëÇÑ ¾Ï ¿¹Ãø ¸ğµ¨ °³¹ß - ¾ÏÈ¯ÀÚ RNA Á¤º¸ È¹µæ¹æ¹ı ¹× Data ±¸Á¶ÆÄ¾Ç 
-3|2016/01/12|(bioPython )   5Àå: Population Genetics Simulation (Theano) 5Àå Multilayer Perceptron  ÀÌ·Ğ  <br/>(Theano) 5Àå Multilayer Perceptron  ÄÚµå¼³¸í ¹× ½Ç½À   <br/>(½Ç½À) ¾Ï È¯ÀÚ RNAÁ¤º¸¸¦ È°¿ëÇÑ ¾Ï ¿¹Ãø ¸ğµ¨ °³¹ß - Data ÀüÃ³¸®
-4|2016/01/19|(bioPython ) 6Àå: Phylogenetics (Theano) 6Àå Convolutional Neural Networks (LeNet)  ÀÌ·Ğ  <br/>(Theano) 6Àå Convolutional Neural Networks (LeNet)  ÄÚµå¼³¸í ¹× ½Ç½À   <br/>(½Ç½À) ¾Ï È¯ÀÚ RNAÁ¤º¸¸¦ È°¿ëÇÑ ¾Ï ¿¹Ãø ¸ğµ¨ °³¹ß - È¸±Í¸ğÇüÀ» È°¿ëÇÑ ¸ğÇü °³¹ß
+1|2015/12/29|(bioPython )   3ì¥: Working with Genomes  <br/>(Theano)  Deeplearning  - 3ì¥ GETTING STARTED 
+2|2016/01/05|(íŒŒì´ì…˜ ê¸°ì´ˆ)(bioPython ) 4ì¥: Population Genetics <br/> (Theano)  Deeplearning  - 4ì¥ Classifying MNIST digits using Logistic Regression  <br/>(ì‹¤ìŠµ) ì•” í™˜ì RNAì •ë³´ë¥¼ í™œìš©í•œ ì•” ì˜ˆì¸¡ ëª¨ë¸ ê°œë°œ - ì•”í™˜ì RNA ì •ë³´ íšë“ë°©ë²• ë° Data êµ¬ì¡°íŒŒì•… 
+3|2016/01/12|(bioPython )   5ì¥: Population Genetics Simulation (Theano) 5ì¥ Multilayer Perceptron  ì´ë¡   <br/>(Theano) 5ì¥ Multilayer Perceptron  ì½”ë“œì„¤ëª… ë° ì‹¤ìŠµ   <br/>(ì‹¤ìŠµ) ì•” í™˜ì RNAì •ë³´ë¥¼ í™œìš©í•œ ì•” ì˜ˆì¸¡ ëª¨ë¸ ê°œë°œ - Data ì „ì²˜ë¦¬
+4|2016/01/19|(bioPython ) 6ì¥: Phylogenetics (Theano) 6ì¥ Convolutional Neural Networks (LeNet)  ì´ë¡   <br/>(Theano) 6ì¥ Convolutional Neural Networks (LeNet)  ì½”ë“œì„¤ëª… ë° ì‹¤ìŠµ   <br/>(ì‹¤ìŠµ) ì•” í™˜ì RNAì •ë³´ë¥¼ í™œìš©í•œ ì•” ì˜ˆì¸¡ ëª¨ë¸ ê°œë°œ - íšŒê·€ëª¨í˜•ì„ í™œìš©í•œ ëª¨í˜• ê°œë°œ
 
  
