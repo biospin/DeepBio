@@ -15,8 +15,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - Theano 교재 2 -  Deeplearning ( http://deeplearning.net/tutorial/deeplearning.pdf  )
 
 ## 참고 자료
-[Bengio 교수의 딥러닝 강의]( http://goodfeli.github.io/dlbook/ )
-[스탠포드대학의 Convolutional Neural Networks for Visual Recognition ](http://cs231n.stanford.edu/syllabus.html)
+- [Bengio 교수의 딥러닝 강의]( http://goodfeli.github.io/dlbook/ )
+- [스탠포드대학의 Convolutional Neural Networks for Visual Recognition ](http://cs231n.stanford.edu/syllabus.html)
 
 ## 스터디 공지
 [11월 10일  DeepBio:파트 1 - 2회차]( https://www.facebook.com/events/1677532639129156/ )
