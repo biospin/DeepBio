@@ -20,8 +20,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - [Docker로 Caffe 실습하기](https://gist.github.com/haje01/0fb6d63bf065c9831256)
 
 ## 스터디 공지
-[11월 17일  DeepBio:파트 1 - 3회차]( https://www.facebook.com/events/549067748577623/ )
-[11월 10일  DeepBio:파트 1 - 2회차]( https://www.facebook.com/events/1677532639129156/ )
+- [11월 17일  DeepBio:파트 1 - 3회차]( https://www.facebook.com/events/549067748577623/ ) 
+- [11월 10일  DeepBio:파트 1 - 2회차]( https://www.facebook.com/events/1677532639129156/ )
 
 ## Schedule
 
