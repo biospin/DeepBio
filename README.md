@@ -18,6 +18,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - [Bengio 교수의 딥러닝 강의]( http://goodfeli.github.io/dlbook/ ) - 딥러닝에 대한 깊은 통찰을 얻을 수 있음.
 - [스탠포드대학의 Convolutional Neural Networks for Visual Recognition 강의](http://cs231n.stanford.edu/syllabus.html) - 딥러닝에 사용되는 수식을 쉽게 설명
 - [Docker로 Caffe 실습하기](https://gist.github.com/haje01/0fb6d63bf065c9831256)
+- [Basset-Deep convolutional neural networks for DNA sequence analysis](https://github.com/davek44/Basset)
+- [남광우님의 Basset 노트 ](https://github.com/biospin/DeepBio/blob/master/reference/Basset.txt)
 
 ## 스터디 공지
 - [11월 17일  DeepBio:파트 1 - 3회차]( https://www.facebook.com/events/549067748577623/ ) 
