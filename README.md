@@ -21,6 +21,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - [Basset-Deep convolutional neural networks for DNA sequence analysis](https://github.com/davek44/Basset)
 - [남광우님의 Basset 노트 ](https://github.com/biospin/DeepBio/blob/master/reference/Basset.txt)
 - [Theano의 Graph Structures예제에서 발생하는 오류 해결방법](https://github.com/biospin/DeepBio/blob/master/reference/pydot_error.txt)
+- [NVIDA CUDA 드라이버설치 방법](http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/index.html#pre-installation-actions)
 
 ## 스터디 공지
 - [11월 17일  DeepBio:파트 1 - 3회차]( https://www.facebook.com/events/549067748577623/ ) 
@@ -47,7 +48,7 @@ seq.|날짜|내용|후기
 ### Part 2.
 seq.|날짜|내용
 ---|---|---
-1|2015/12/01|(파이션 기초)  11장 정규표현식, 12장 네트워크 프로그램과 13장 웹서비스<br/>(Theano)   Theano 기초 -  Derivatives in Theano
+1|2015/12/01|(파이션 기초) 11장 정규표현식, 12장 네트워크 프로그램과 13장 웹서비스(김슬기)<br/>(Theano) Theano 기초 - Derivatives in Theano
 2|2015/12/08|(파이션 기초) 14장 데이터베이스와 SQL, 15장 데이터 시각화와 16장  <br/>(Theano)  Theano 기초 -  Configuration Settings and Compiling Modes 와 Loading and Saving
 3|2015/12/15|(bioPython ) 1장: Python and the Surrounding Software Ecology <br/>(Theano) Theano 기초 - Conditions과 Loop
 4|2015/12/22|(bioPython ) 2장: Next-generation Sequencing <br/>(Theano) Theano 기초 - Sparse 과 Using the GPU 
