@@ -88,8 +88,12 @@ python -c "import numpy; numpy.test()"   # NumPy (~30s)
 python -c "import scipy; scipy.test()"  # SciPy (~1m)
 python -c "import theano; theano.test()"  # Theano (~30m)
 
-# 성능 확인
+# CPU 성능 확인
 python `python -c "import os, theano; print os.path.dirname(theano.__file__)"`/misc/check_blas.py
+
+# GPU 성능 확인
+THEANO_FLAGS=floatX=float32,device=gpu python `python -c "import os, theano; print os.path.dirname(theano.__file__)"`/misc/check_blas.py
+
 
 sudo apt-get install libzmq-dev
 sudo pip install ipython==3.2.1
