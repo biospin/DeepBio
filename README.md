@@ -48,12 +48,16 @@ seq.|날짜|내용|후기
 
 
 ### Part 2.
-seq.|날짜|내용
----|---|---
-1|2015/12/01|(파이션 기초) 11장 정규표현식, 12장 네트워크 프로그램과 13장 웹서비스(김슬기)<br/>(Theano) Theano 기초 - Derivatives in Theano
-2|2015/12/08|(파이션 기초) 14장 데이터베이스와 SQL, 15장 데이터 시각화와 16장  <br/>(Theano)  Theano 기초 -  Configuration Settings and Compiling Modes 와 Loading and Saving
-3|2015/12/15|(bioPython ) 1장: Python and the Surrounding Software Ecology <br/>(Theano) Theano 기초 - Conditions과 Loop
-4|2015/12/22|(bioPython ) 2장: Next-generation Sequencing <br/>(Theano) Theano 기초 - Sparse 과 Using the GPU 
+|seq.| 날 짜           |내용
+|----| ---------|----------------------------------------------
+|  1 |2015/12/01|(파이션 기초) 11장 정규표현식, 12장 네트워크 프로그램과 13장 웹서비스(김슬기)
+|    |          |(Theano) Theano 기초 - Derivatives in Theano
+|  2 |2015/12/08|(파이션 기초) 14장 데이터베이스와 SQL, 15장 데이터 시각화와 16장 
+|    |          |(Theano)  Theano 기초 -  Configuration Settings and Compiling Modes 와 Loading and Saving
+|  3 |2015/12/15|(bioPython ) 1장: Python and the Surrounding Software Ecology 
+|    |          |(Theano) Theano 기초 - Conditions과 Loop
+|  4 |2015/12/22|(bioPython ) 2장: Next-generation Sequencing 
+|    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU 
 
 
 ### Part 3.
@@ -61,8 +65,14 @@ seq.|날짜|내용
 |----| ---------|----------------------------------------------
 |  1 |2015/12/29|(bioPython )   3장: Working with Genomes  
 |    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED 
-|2|2016/01/05|(파이션 기초)(bioPython ) 4장: Population Genetics <br/> (Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악 
-|3|2016/01/12|(bioPython )   5장: Population Genetics Simulation (Theano) 5장 Multilayer Perceptron  이론  <br/>(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
-|4|2016/01/19|(bioPython ) 6장: Phylogenetics (Theano) 6장 Convolutional Neural Networks (LeNet)  이론  <br/>(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
+| 2  |2016/01/05|(파이션 기초)(bioPython ) 4장: Population Genetics 
+|    |          |(Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  
+|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악 
+|  3 |2016/01/12|(bioPython )   5장: Population Genetics Simulation (Theano) 5장 Multilayer Perceptron  이론  
+|    |          |(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   
+|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
+|  4 |2016/01/19|(bioPython ) 6장: Phylogenetics (Theano) 6장 Convolutional Neural Networks (LeNet)  이론 
+|    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   
+|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
 
  
