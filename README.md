@@ -57,11 +57,12 @@ seq.|날짜|내용
 
 
 ### Part 3.
-seq.|날짜|내용
----|---|---
-1|2015/12/29|(bioPython )   3장: Working with Genomes  <br/>(Theano)  Deeplearning  - 3장 GETTING STARTED 
-2|2016/01/05|(파이션 기초)(bioPython ) 4장: Population Genetics <br/> (Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악 
-3|2016/01/12|(bioPython )   5장: Population Genetics Simulation (Theano) 5장 Multilayer Perceptron  이론  <br/>(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
-4|2016/01/19|(bioPython ) 6장: Phylogenetics (Theano) 6장 Convolutional Neural Networks (LeNet)  이론  <br/>(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
+|seq.| 날 짜           |내용
+|----| ---------|----------------------------------------------
+|  1 |2015/12/29|(bioPython )   3장: Working with Genomes  
+|    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED 
+|2|2016/01/05|(파이션 기초)(bioPython ) 4장: Population Genetics <br/> (Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악 
+|3|2016/01/12|(bioPython )   5장: Population Genetics Simulation (Theano) 5장 Multilayer Perceptron  이론  <br/>(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
+|4|2016/01/19|(bioPython ) 6장: Phylogenetics (Theano) 6장 Convolutional Neural Networks (LeNet)  이론  <br/>(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   <br/>(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
 
  
