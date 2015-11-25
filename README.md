@@ -60,14 +60,14 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |seq.| 날 짜           |내용
 |----| ---------|----------------------------------------------
 |  1 |2015/12/01|(파이션 기초) 11장 정규표현식, 12장 네트워크 프로그램과 13장 웹서비스(김슬기)
-|    |          |(Theano) Theano 기초 - Derivatives in Theano
-|  2 |2015/12/08|(파이션 기초) 14장 데이터베이스와 SQL, 15장 데이터 시각화와 16장 
-|    |          |(Theano) Theano 기초 -  Configuration Settings and Compiling Modes 와 Loading and Saving
+|    |          |(Theano) Theano 기초 - Derivatives in Theano (박혜진)
+|  2 |2015/12/08|(파이션 기초) 14장 데이터베이스와 SQL, 15장 데이터 시각화와 16장 (이승현)
+|    |          |(Theano) Theano 기초 -  Configuration Settings and Compiling Modes 와 Loading and Saving(성민경)
 |  3 |2015/12/15|(bioPython ) 1장: Python and the Surrounding Software Ecology 
 |    |          |(Theano) Theano 기초 - Conditions과 Loop
 |    |          |(특강) 우분투에 CUDA 설치 (지용기)
 |  4 |2015/12/22|(bioPython ) 2장: Next-generation Sequencing 
-|    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU 
+|    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU (박혜진)
 
 
 ### Part 3.
