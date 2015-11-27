@@ -78,7 +78,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED 
 |  2 |2016/01/05|(bioPython ) 4장: Population Genetics 
 |    |          |(Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  
-|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악 
+|    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
 |  3 |2016/01/12|(bioPython )   5장: Population Genetics Simulation (Theano) 5장 Multilayer Perceptron  이론  
 |    |          |(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
