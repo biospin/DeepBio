@@ -18,9 +18,9 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - 실습 주제 : 암 환자 RNA정보를 활용한 암 예측 모델 개발
 - [암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
 - 실습 계획 :
-     1) 회귀모형을 활용한 모형 개발
-     2) Multilayer Perceptron을 활용한 모형 개발
-     3) DBN을 활용한 모형 개발
+     - 1) 회귀모형을 활용한 모형 개발
+     - 2) Multilayer Perceptron을 활용한 모형 개발
+     - 3) DBN을 활용한 모형 개발
      
 - 실습 환경 : NCloud 서버 2대와  스터디 구성원의 준비해주는 장비
 | 서버명    |        서버OS |  서버 구성                             | 공인 IP
