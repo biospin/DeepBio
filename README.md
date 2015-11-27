@@ -23,6 +23,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
      - 3) DBN을 활용한 모형 개발
      
 - 실습 환경 : NCloud 서버 2대와  스터디 구성원의 준비해주는 장비
+
 | 서버명    |        서버OS |  서버 구성                             | 공인 IP
 |--------|--------------|------------------------|-------------
 |biospin | ubuntu 14.04 | 8CPU, 16G Mem, 50G HDD | 211.249.50.37
