@@ -68,7 +68,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          | (Theano)  [ Theano 기초 - More Examples](http://deeplearning.net/software/theano/tutorial/examples.html)(안효준) |   [김가경님](https://www.facebook.com/groups/biospin/permalink/772727886170429/)
 |   4|2015/11/24|(파이션 기초)  [8장 리스트](https://github.com/biospin/DeepBio/blob/master/part01/Week1_151124/Py4Inf-08-Lists.pptx) 와 [9장 딕셔너리](https://github.com/biospin/DeepBio/blob/master/part01/Week1_151124/Py4Inf-09-Dictionaries.pptx) (김미송), [10장 튜플(성민경) ]  (https://github.com/biospin/DeepBio/blob/master/part01/Week1_151117/chap10_Tuple_study.ipynb) | [뒷풀이](https://www.facebook.com/groups/biospin/permalink/778259472283937/)
 |    |          | [9장 연습문제](https://github.com/biospin/DeepBio/blob/master/part01/Week1_151124/chapter_09_dictionary_exercise.ipynb) |  [김가경님](https://www.facebook.com/groups/biospin/permalink/778073592302525/)
-|    |          | (Theano)  Theano 기초 - Graph Structures과 Printing/Drawing Theano graphs(최홍용) 
+|    |          | (Theano)  Theano 기초 - [Graph Structures](http://deeplearning.net/software/theano/tutorial/symbolic_graphs.html)과 [Printing/Drawing Theano graphs](http://deeplearning.net/software/theano/tutorial/printing_drawing.html)(최홍용) 
 |    |          | (보강) [ Theano 기초 - More Examples](https://github.com/biospin/DeepBio/blob/master/reference/theano_more_examples.ipynb)(지용기) | 
 
 
