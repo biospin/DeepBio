@@ -77,7 +77,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |----| ---------|----------------------------------------------
 |  1 |2015/12/01|(파이션 기초) [11장 정규표현식](https://github.com/biospin/DeepBio/blob/master/part02/Week1_151201/Regular%20expression.ipynb), [12장 네트워크 프로그램](https://github.com/biospin/DeepBio/blob/master/part02/Week1_151201/Network.ipynb)과 13장 웹서비스(김슬기)
 |    |          | [11장 연습문제] (https://github.com/biospin/DeepBio/blob/master/part02/Week1_151201/11%EC%9E%A5%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C.ipynb)
-|    |          |(Theano) Theano 기초 - Derivatives in Theano (박혜진)
+|    |          |(Theano) [Theano 기초 - Derivatives in Theano](https://github.com/biospin/DeepBio/blob/master/part02/Week1_151201/Derivates20in20Theano.ipynb%) (박혜진)
 |  2 |2015/12/08|(파이션 기초) 14장 데이터베이스와 SQL, 15장 데이터 시각화와 16장 (이승현)
 |    |          |(Theano) Theano 기초 -  Configuration Settings and Compiling Modes 와 Loading and Saving(성민경)
 |  3 |2015/12/15|(bioPython ) 1장: Python and the Surrounding Software Ecology 
