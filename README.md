@@ -84,7 +84,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano) Theano 기초 - Conditions과 Loop
 |    |          |(특강)[우분투에 CUDA 설치](https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb) (지용기)
 |  4 |2015/12/22|(bioPython ) 2장: Next-generation Sequencing 
-|    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU (박혜진)
+|    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU (김가경)
 
 
 ### Part 3.
