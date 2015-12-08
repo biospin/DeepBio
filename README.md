@@ -90,7 +90,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 ### Part 3.
 |seq.| 날 짜           |내용
 |----| ---------|----------------------------------------------
-|  1 |2015/12/29|(bioPython )   3장: Working with Genomes ( 김가경 )
+|  1 |2015/12/29|(bioPython )   3장: Working with Genomes 
 |    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED 
 |  2 |2016/01/05|(bioPython ) 4장: Population Genetics 
 |    |          |(Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  
