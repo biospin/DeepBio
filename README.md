@@ -40,6 +40,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - [우분투 14.04에 NVIDA CUDA 드라이버설치 ] (https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb)
 
 ## 스터디 공지
+- [12월 08일  DeepBio:파트 2 - 2회차]( https://www.facebook.com/events/791234627652955/ )
 - [12월 01일  DeepBio:파트 2 - 1회차]( https://www.facebook.com/events/899904310064718/ )
 - [11월 24일  DeepBio:파트 1 - 4회차]( https://www.facebook.com/events/981481878589792/ )
 - [11월 17일  DeepBio:파트 1 - 3회차]( https://www.facebook.com/events/549067748577623/ ) 
