@@ -81,25 +81,27 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano) [Theano 기초 - Derivatives in Theano](https://github.com/biospin/DeepBio/blob/master/part02/Week1_151201/Derivates20in20Theano.ipynb%) (박혜진)
 |  2 |2015/12/08|(파이션 기초) 14장 [데이터베이스와 SQL](Py4Inf-14-Databases.pptx), [Relational Databases](https://github.com/biospin/DeepBio/blob/master/part02/Week2_151208/Py4Inf-14-Database.ppt), [15장 데이터 시각화](https://github.com/biospin/DeepBio/blob/master/part02/Week2_151208/Py4Inf-15-Data-Viz.pptx)와 16장  (이승현) | [후기](https://www.facebook.com/groups/biospin/permalink/784170075026210/)
 |    |          |(Theano) Theano 기초 - [Configuration Settings and Compiling Modes](https://github.com/biospin/DeepBio/blob/master/part02/Week2_151208/theano_05_configureation%20settings%20and%20compiling%20modes.ipynb) 와 [Loading and Saving](https://github.com/biospin/DeepBio/blob/master/part02/Week2_151208/theano_06_loading%20and%20saving.ipynb)(성민경)
-|  3 |2015/12/15|(bioPython ) 1장: Python and the Surrounding Software Ecology 
-|    |          |(Theano) Theano 기초 - Conditions과 Loop
+|  3 |2015/12/15|(bioPython ) 1장: Python and the Surrounding Software Ecology (김가경) 
+|    |          |(Theano) Theano 기초 - Conditions과 Loop (조강익)
 |    |          |(특강)[우분투에 CUDA 설치](https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb) (지용기)
-|  4 |2015/12/22|(bioPython ) 2장: Next-generation Sequencing 
-|    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU (김가경)
+|  4 |2015/12/22|(bioPython ) 2장: Next-generation Sequencing (김가경)
+|    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU (문명진)
+|    |          |(논문리뷰) [Assessing the clinical utility of cancer genomic and proteomic data across tumor types](http://www.nature.com/nbt/journal/v32/n7/full/nbt.2940.html) (성민경)
 
 
 ### Part 3.
 |seq.| 날 짜           |내용
 |----| ---------|----------------------------------------------
-|  1 |2015/12/29|(bioPython )   3장: Working with Genomes 
-|    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED 
-|  2 |2016/01/05|(bioPython ) 4장: Population Genetics 
+|  1 |2015/12/29|(bioPython )   3장: Working with Genomes (박혜진)
+|    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED (이승우)
+|  2 |2016/01/05|(bioPython ) 4장: Population Genetics (성민경)
 |    |          |(Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  
 |    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
 |  3 |2016/01/12|(bioPython )   5장: Population Genetics Simulation (Theano) 5장 Multilayer Perceptron  이론  
 |    |          |(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
-|  4 |2016/01/19|(bioPython ) 6장: Phylogenetics (Theano) 6장 Convolutional Neural Networks (LeNet)  이론 
+|  4 |2016/01/19|(bioPython ) 6장: Phylogenetics 
+|    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  이론 (황성원)
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
 
