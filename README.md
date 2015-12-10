@@ -21,12 +21,14 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
      - 1) 회귀모형을 활용한 모형 개발
      - 2) Multilayer Perceptron을 활용한 모형 개발
      - 3) DBN을 활용한 모형 개발
-- 실습 환경 : NCloud 서버 2대와  스터디 구성원의 준비해주는 장비
+- 실습 환경 : NCloud 서버 4대와  스터디 구성원의 준비해주는 장비
 
-| 서버명    |        서버OS |  서버 구성                             | 공인 IP
-|--------|--------------|------------------------|-------------
-|biospin | ubuntu 14.04 | 8CPU, 16G Mem, 50G HDD | 211.249.50.37
-|darwin  | ubuntu 14.04 | 8CPU, 16G Mem, 50G HDD | 미할당
+| 서버명        |        서버OS |  서버 구성                               | 공인 IP
+|--------  |--------------|-------------------------|-------------
+|biospin   | ubuntu 14.04 | 8CPU, 16G Mem, 500G HDD | 211.249.50.37
+|darwin    | ubuntu 14.04 | 8CPU, 16G Mem, 500G HDD | 미할당
+|babelpish | ubuntu 14.04 | 4CPU, 16G Mem, 500G HDD | 미할당
+|psygrammer| ubuntu 14.04 | 4CPU, 16G Mem, 500G HDD | 미할당
 
 
 ## 참고 자료
