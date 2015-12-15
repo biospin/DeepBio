@@ -100,7 +100,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |  2 |2016/01/05|(bioPython ) 4장: Population Genetics (성민경)
 |    |          |(Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  
 |    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
-|  3 |2016/01/12|(bioPython )   5장: Population Genetics Simulation 
+|  3 |2016/01/12|(bioPython )   5장: Population Genetics Simulation (이승현)
 |    |          |(Theano) 5장 Multilayer Perceptron  이론  
 |    |          |(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
@@ -125,7 +125,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  이론
 |    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (1)
-|  4 |2016/02/23|(Theano) 10장 Deep Belief Networks  이론
+|  4 |2016/02/23|(Theano) 10장 Deep Belief Networks  이론 (황성원)
 |    |          |(Theano) 10장 Deep Belief Networks  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (2)
 
