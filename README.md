@@ -87,7 +87,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |  3 |2015/12/15|(bioPython ) 1장: [Python and the Surrounding Software Ecology](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/Chapter1.Python_and_the_Surrounding_Software_Ecology.ipynb), [Interface R](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/Interfacing_R.ipynb), [R Magic](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/R_magic.ipynb) (김가경) 
 |    |          |(Theano) [Theano 기초 - Conditions과 Loop](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/theano_loop_kang_ik_cho.pdf), [inotebook](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/theano_loop_kang_ik_cho.ipynb) (조강익)
 |    |          |(특강)[우분투에 CUDA 설치](https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb) (지용기)
-|  4 |2015/12/22|(bioPython ) 2장: Next-generation Sequencing (김가경)
+|  4 |2015/12/29|(bioPython ) 2장: Next-generation Sequencing (김가경)
 |    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU (문명진)
 |    |          |(논문리뷰) [Assessing the clinical utility of cancer genomic and proteomic data across tumor types](http://www.nature.com/nbt/journal/v32/n7/full/nbt.2940.html) (성민경)
 
@@ -95,16 +95,16 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 ### Part 3.
 |seq.| 날 짜           |내용
 |----| ---------|----------------------------------------------
-|  1 |2015/12/29|(bioPython )   3장: Working with Genomes (박혜진)
+|  1 |2016/01/05|(bioPython )   3장: Working with Genomes (박혜진)
 |    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED (이승우)
-|  2 |2016/01/05|(bioPython ) 4장: Population Genetics (성민경)
+|  2 |2016/01/12|(bioPython ) 4장: Population Genetics (성민경)
 |    |          |(Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  
 |    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
-|  3 |2016/01/12|(bioPython )   5장: Population Genetics Simulation (이승현)
+|  3 |2016/01/19|(bioPython )   5장: Population Genetics Simulation (이승현)
 |    |          |(Theano) 5장 Multilayer Perceptron  이론  
 |    |          |(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
-|  4 |2016/01/19|(bioPython ) 6장: Phylogenetics 
+|  4 |2016/01/26|(bioPython ) 6장: Phylogenetics 
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  이론 (황성원)
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
@@ -113,19 +113,19 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 ### Part 4.
 |seq.| 날 짜           |내용
 |----| ---------|----------------------------------------------
-|  1 |2016/01/26|(bioPython) 7장: Using the Protein Data Bank
+|  1 |2016/02/02|(bioPython) 7장: Using the Protein Data Bank
 |    |          |(Theano) 7장 Denoising Autoencoders (dA)  이론
 |    |          |(Theano) 7장 Denoising Autoencoders (dA)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (1)
-|  2 |2016/02/02|(bioPython)8장: Other Topics in Bioinformatics
+|  2 |2016/02/16|(bioPython)8장: Other Topics in Bioinformatics
 |    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  이론
 |    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (2)
-|  3 |2016/02/16|(bioPython) 9장: Python for Big Genomics Datasets
+|  3 |2016/02/23|(bioPython) 9장: Python for Big Genomics Datasets
 |    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  이론
 |    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (1)
-|  4 |2016/02/23|(Theano) 10장 Deep Belief Networks  이론 (황성원)
+|  4 |2016/03/08|(Theano) 10장 Deep Belief Networks  이론 (황성원)
 |    |          |(Theano) 10장 Deep Belief Networks  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (2)
 
