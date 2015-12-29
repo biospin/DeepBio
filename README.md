@@ -16,7 +16,9 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 
 ## 데이터 분석 실습
 - 실습 주제 : 암 환자 RNA정보를 활용한 암 예측 모델 개발
-- [암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
+- [암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb)
+- [암환자  mRNA 데이터 수집 및 구조](https://github.com/biospin/DeepBio/blob/master/exercise01/cancer_data_structur.ipynb)
+- [암환자  mRNA데이터를 DB와 HBase에 올리기](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_Upload_script.ipynb)
 - 실습 계획 :
      - 1) 회귀모형을 활용한 모형 개발
      - 2) Multilayer Perceptron을 활용한 모형 개발
