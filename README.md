@@ -34,11 +34,12 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |          |  node01(darwin) |  node02(biospin) |  node03(babelpish) |  node04(psygrammer) 
 |----------|-----------------|------------------|--------------------|---------
 | Hadoop2.6| NameNode        | NodeManager      | NodeManager        | NodeManager
-|          | DataNode        | DataNode         | DataNode           |
+|          | DataNode        | DataNode         | DataNode           | DataNode
 |          | ResourceManager |                  |                    |
 |          |SecondaryNameNode|                  |                    |
-|Hbase1.1.2|                 |                  | HMaster            | 
+|Hbase1.1.2|                 |                  | HMaster            |
 |          |                 |                  | HRegionServer      | HRegionServer
+|Zookeeper |                 |                  |                    | QuorumPeerMain
 |Spark 1.5 |                 | Master           |                    |
 |          | Worker          | Worker           | Worker             | Worker
 |MariaDB   |                 | mysqld           |                    |
