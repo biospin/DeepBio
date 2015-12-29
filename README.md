@@ -44,6 +44,57 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |          | Worker          | Worker           | Worker             | Worker
 |MariaDB   |                 | mysqld           |                    |
 
+## DB 와 HBase 스키마
+```
+-- ##############################################################
+-- DB 스키마 정의
+-- ##############################################################
+CREATE SCHEMA IF NOT EXISTS `deepbioDB` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `deepbioDB` ;
+
+DROP TABLE IF EXISTS file_manifest ;
+CREATE TABLE IF NOT EXISTS file_manifest (
+  `id`       MEDIUMINT NOT NULL AUTO_INCREMENT,
+  `disease` VARCHAR(10) NOT NULL,
+  `platform_type` VARCHAR(50) NOT NULL,
+  `center` VARCHAR(10) NOT NULL,
+  `platform` VARCHAR(50) NOT NULL,
+  `level` VARCHAR(10) NOT NULL,
+  `barcode` VARCHAR(50) NOT NULL,
+  `file_name` VARCHAR(512) NOT NULL,
+  `reg_dt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP  ,
+  PRIMARY KEY (`id`),
+  index file_manifefile_annotationsst_barcode_idx(barcode) 
+)
+ENGINE = InnoDB;
+
+DROP TABLE IF EXISTS file_annotations ;
+CREATE TABLE IF NOT EXISTS file_annotations (
+  `id`       MEDIUMINT NOT NULL ,
+  `disease` VARCHAR(10) NOT NULL,
+  `item_type` VARCHAR(50) NOT NULL,
+  `item_barcode` VARCHAR(50) NOT NULL,
+  `item_uuid` VARCHAR(50) NOT NULL,
+  `classification` VARCHAR(10) NOT NULL,
+  `category` VARCHAR(50) NOT NULL,
+  `annotator` VARCHAR(50) NOT NULL,
+  `date_created` VARCHAR(20) NOT NULL,
+  `annotation` VARCHAR(4096) NOT NULL,
+  `reg_dt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP  ,
+  PRIMARY KEY (`id`),
+  index file_annotations_barcode_idx(item_barcode) ,
+  index file_annotations_uuid_idx(item_uuid) ,
+  index file_annotations_date_created_idx(date_created) 
+)
+ENGINE = InnoDB;
+
+-- ##############################################################
+-- HBASE 스키마 정의
+-- ##############################################################
+disable 'mRNA'
+drop 'mRNA'
+create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
+```
 
 ## 참고 자료
 - [Bengio 교수의 딥러닝 강의]( http://goodfeli.github.io/dlbook/ ) - 딥러닝에 대한 깊은 통찰을 얻을 수 있음.
