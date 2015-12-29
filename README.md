@@ -31,6 +31,19 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |psygrammer| ubuntu 14.04 | 4CPU, 16G Mem, 500G HDD | 211.249.50.159  | 4xxxx, 예) 48888
 
 
+|          |  node01(darwin) |  node02(biospin) |  node03(babelpish) |  node04(psygrammer) 
+|----------|-----------------|------------------|--------------------|---------
+| Hadoop2.6| NameNode        | NodeManager      | NodeManager        | NodeManager
+|          | DataNode        | DataNode         | DataNode           |
+|          | ResourceManager |                  |                    |
+|          |SecondaryNameNode|                  |                    |
+|Hbase1.1.2|                 |                  | HMaster            | 
+|          |                 |                  | HRegionServer      | HRegionServer
+|Spark 1.5 |                 | Master           |                    |
+|          | Worker          | Worker           | Worker             | Worker
+|MariaDB   |                 | mysqld           |                    |
+
+
 ## 참고 자료
 - [Bengio 교수의 딥러닝 강의]( http://goodfeli.github.io/dlbook/ ) - 딥러닝에 대한 깊은 통찰을 얻을 수 있음.
 - [스탠포드대학의 Convolutional Neural Networks for Visual Recognition 강의](http://cs231n.stanford.edu/syllabus.html) - 딥러닝에 사용되는 수식을 쉽게 설명
