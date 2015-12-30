@@ -109,6 +109,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 - [우분투 14.04에 NVIDA CUDA 드라이버설치 ] (https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb)
 
 ## 스터디 공지
+- [12월 29일  DeepBio:파트 2 - 4회차]( https://www.facebook.com/events/933396823412578/ )
 - [12월 15일  DeepBio:파트 2 - 3회차]( https://www.facebook.com/events/800304630099060/ )
 - [12월 08일  DeepBio:파트 2 - 2회차]( https://www.facebook.com/events/791234627652955/ )
 - [12월 01일  DeepBio:파트 2 - 1회차]( https://www.facebook.com/events/899904310064718/ )
@@ -154,7 +155,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 |  3 |2015/12/15|(bioPython ) 1장: [Python and the Surrounding Software Ecology](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/Chapter1.Python_and_the_Surrounding_Software_Ecology.ipynb), [Interface R](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/Interfacing_R.ipynb), [R Magic](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/R_magic.ipynb) (김가경) 
 |    |          |(Theano) [Theano 기초 - Conditions과 Loop](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/theano_loop_kang_ik_cho.pdf), [inotebook](https://github.com/biospin/DeepBio/blob/master/part02/Week3_151215/theano_loop_kang_ik_cho.ipynb) (조강익)
 |    |          |(특강)[우분투에 CUDA 설치](https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb) (지용기)
-|  4 |2015/12/29|(bioPython )[ 2장: Next-generation Sequencing](https://github.com/biospin/DeepBio/blob/master/part02/Week4_151229/biopython_ch02/Chapter%202.%20Next-generation%20Sequencing.ipynb) (김가경)
+|  4 |2015/12/29|(bioPython )[ 2장: Next-generation Sequencing](https://github.com/biospin/DeepBio/blob/master/part02/Week4_151229/biopython_ch02/Chapter%202.%20Next-generation%20Sequencing.ipynb) (김가경) | (후기)[https://www.facebook.com/groups/biospin/permalink/794406297335921/]
 |    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU (문명진)
 |    |          |(논문리뷰) [Assessing the clinical utility of cancer genomic and proteomic data across tumor types](http://www.nature.com/nbt/journal/v32/n7/full/nbt.2940.html), [논문코드 실습](https://github.com/biospin/DeepBio/blob/master/part02/Week4_151229/analysis%20code.ipynb)(성민경)
 
