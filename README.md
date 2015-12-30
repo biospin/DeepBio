@@ -156,7 +156,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 |    |          |(특강)[우분투에 CUDA 설치](https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb) (지용기)
 |  4 |2015/12/29|(bioPython )[ 2장: Next-generation Sequencing](https://github.com/biospin/DeepBio/blob/master/part02/Week4_151229/biopython_ch02/Chapter%202.%20Next-generation%20Sequencing.ipynb) (김가경)
 |    |          |(Theano) Theano 기초 - Sparse 과 Using the GPU (문명진)
-|    |          |(논문리뷰) [Assessing the clinical utility of cancer genomic and proteomic data across tumor types](http://www.nature.com/nbt/journal/v32/n7/full/nbt.2940.html), [논문코드] 실습(https://github.com/biospin/DeepBio/blob/master/part02/Week4_151229/analysis%20code.ipynb)(성민경)
+|    |          |(논문리뷰) [Assessing the clinical utility of cancer genomic and proteomic data across tumor types](http://www.nature.com/nbt/journal/v32/n7/full/nbt.2940.html), [논문코드 실습](https://github.com/biospin/DeepBio/blob/master/part02/Week4_151229/analysis%20code.ipynb)(성민경)
 
 
 ### Part 3.
