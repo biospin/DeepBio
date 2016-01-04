@@ -33,7 +33,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |psygrammer| ubuntu 14.04 | 4CPU, 16G Mem, 500G HDD | 211.249.50.159  | 4xxxx, 예) 48888
 
 
-|          |  node01(darwin) |  node02(biospin) |  node03(babelpish) |  node04(psygrammer) 
+| S/W      |  node01(darwin) |  node02(biospin) |  node03(babelpish) |  node04(psygrammer) 
 |----------|-----------------|------------------|--------------------|---------
 | Hadoop2.6| NameNode        | NodeManager      | NodeManager        | NodeManager
 |          | DataNode        | DataNode         | DataNode           | DataNode
