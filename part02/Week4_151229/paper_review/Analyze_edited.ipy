@@ -1,0 +1,88 @@
+# -*- coding: utf-8 -*-
+# <nbformat>3.0</nbformat>
+# <codecell>
+import synapseclient
+import os
+import numpy as np
+
+syn = synapseclient.Synapse()
+syn.login('sungmk86', 'deepbio')
+
+ACRONYM = 'GBM'
+trainLabelsId = "syn1714087"   # Training bootstraps for GBM
+testLabelsId = "syn1714083"    # Testing boostraps for GBM
+dataId = "syn1710368"          # for miRNA GBM data
+survivalDataId = 'syn1710370'
+
+def readFile(entity, strip=None):
+    with open(os.path.join(entity['cacheDir'], entity['files'][0])) as f:
+        data = np.asarray([l.strip(strip).split('\t') for l in f])
+    return data
+
+def match(seq1, seq2):
+    """Finds the index locations of seq1 in seq2"""
+    return [ np.nonzero(seq2==x)[0][0] for x in seq1  if x in seq2 ]
+
+# <codecell>
+
+#Download bootstrap labels
+testLabels = readFile(syn.get(testLabelsId))
+trainLabels = readFile(syn.get(trainLabelsId))
+
+#Download specific data
+data = readFile(syn.get(dataId))
+features=data[0,1:]
+samples=data[1:,0]
+data=data[1:,1:].astype(np.float).T
+
+#Download and extract the survival data
+survival=readFile(syn.get(survivalDataId), '\n')
+survTime = survival[1:,1].astype(np.int)
+survStatus = survival[1:,2].astype(np.int)
+
+# <codecell>
+
+#%load_ext rmagic
+#%R require(survival); require(randomSurvivalForest); require(survcomp)
+%load_ext rpy2.ipython
+%R require(survival); require(randomForestSRC); require(survcomp)
+
+predictions=[]
+Concordance=[]
+for bootstrapIdx in range(trainLabels.shape[1]):
+    #Determine Extract the training and testing sets of one bootstrap
+    trainIdx = match(trainLabels[:,bootstrapIdx], samples)
+    testIdx = match(testLabels[:,bootstrapIdx], samples)
+
+    #Verify that the labels are the same
+    assert (np.all(trainLabels[:,bootstrapIdx]==samples[trainIdx]) and 
+            np.all(testLabels[:,bootstrapIdx]==samples[testIdx]))
+
+    #Exctract traing and testing set
+    trainData = data[:, trainIdx].T
+    trainSurvStatus = survStatus[trainIdx]
+    trainSurvTime = survTime[trainIdx]
+    testData = data[:, testIdx].T
+    testSurvStatus = survStatus[testIdx]
+    testSurvTime = survTime[testIdx]
+           
+    
+    #Push to R, model and predict
+    %Rpush trainData trainSurvStatus trainSurvTime testData testSurvStatus testSurvTime
+#    %R rsf.model.fit <- rsf(Surv(time,status) ~ ., data=data.frame(time=trainSurvTime,status=trainSurvStatus, trainData), ntree=1000, na.action="na.impute", splitrule="logrank", nsplit=1, importance="randomsplit", seed=-1)
+#    %R -o predictedResponse predictedResponse <- predict(rsf.model.fit, data.frame(testData), na.action="na.impute")$mortality
+    %R rsf.model.fit <- rfsrc(Surv(time,status) ~ ., data=data.frame(time=trainSurvTime,status=trainSurvStatus, trainData), ntree=1000, na.action="na.impute", splitrule="logrank", nsplit=1, importance="random", seed=-1)
+    %R -o predictedResponse predictedResponse <- apply(predict(rsf.model.fit, data.frame(testData), na.action="na.impute")$chf,1,sum)
+    #TODO replace this with creating the matrix of results
+    %R -o concordance concordance <- concordance.index(predictedResponse, testSurvTime, testSurvStatus)$c.index
+    print concordance
+    predictions.append(predictedResponse)
+    Concordance.append(concordance)
+
+# <codecell>
+
+#Save predictions to file
+predictions = np.asarray(predictions).T
+print predictions
+np.savetxt('predictions_'+ACRONYM+'_'+dataId+str(data.shape)+'.csv', predictions, fmt='%.4g', delimiter='\t')
+np.savetxt('concordance_'+ACRONYM+'_'+dataId+str(data.shape)+'.csv', Concordance, fmt='%.4g', delimiter='\t')
