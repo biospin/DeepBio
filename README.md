@@ -109,6 +109,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 - [우분투 14.04에 NVIDA CUDA 드라이버설치 ] (https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb)
 
 ## 스터디 공지
+- [01월 05일  DeepBio:파트 3 - 1회차]( https://www.facebook.com/events/936812833074514/ )
 - [12월 29일  DeepBio:파트 2 - 4회차]( https://www.facebook.com/events/933396823412578/ )
 - [12월 15일  DeepBio:파트 2 - 3회차]( https://www.facebook.com/events/800304630099060/ )
 - [12월 08일  DeepBio:파트 2 - 2회차]( https://www.facebook.com/events/791234627652955/ )
