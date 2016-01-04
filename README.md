@@ -35,16 +35,16 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 
 | S/W      |  node01(darwin) |  node02(biospin) |  node03(babelpish) |  node04(psygrammer) 
 |----------|-----------------|------------------|--------------------|---------
-| Hadoop2.6| NameNode        | NodeManager      | NodeManager        | NodeManager
+|[Hadoop2.6](http://hadoop.apache.org/)| NameNode        | NodeManager      | NodeManager        | NodeManager
 |          | DataNode        | DataNode         | DataNode           | DataNode
 |          | ResourceManager |                  |                    |
 |          |SecondaryNameNode|                  |                    |
-|Hbase1.1.2|                 |                  | HMaster            |
+|[Hbase1.1.2](http://hbase.apache.org/)|                 |                  | HMaster            |
 |          |                 |                  | HRegionServer      | HRegionServer
-|Zookeeper |                 |                  |                    | QuorumPeerMain
-|Spark 1.5 |                 | Master           |                    |
+|[Zookeeper](http://zookeeper.apache.org/) |                 |                  |                    | QuorumPeerMain
+|[Spark 1.5](http://spark.apache.org/) |                 | Master           |                    |
 |          | Worker          | Worker           | Worker             | Worker
-|MariaDB   |                 | mysqld           |                    |
+|[MariaDB](https://mariadb.com/)   |                 | mysqld           |                    |
 
 ## DB 와 HBase 스키마
 ```
