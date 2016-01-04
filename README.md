@@ -33,18 +33,18 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |psygrammer| ubuntu 14.04 | 4CPU, 16G Mem, 500G HDD | 211.249.50.159  | 4xxxx, 예) 48888
 
 
-| S/W      |  node01(darwin) |  node02(biospin) |  node03(babelpish) |  node04(psygrammer) 
-|----------|-----------------|------------------|--------------------|---------
+| S/W                                  |  node01(darwin) |  node02(biospin) |  node03(babelpish) |  node04(psygrammer) 
+|--------------------------------------|-----------------|------------------|--------------------|---------
 |[Hadoop2.6](http://hadoop.apache.org/)| NameNode        | NodeManager      | NodeManager        | NodeManager
-|          | DataNode        | DataNode         | DataNode           | DataNode
-|          | ResourceManager |                  |                    |
-|          |SecondaryNameNode|                  |                    |
+|                                      | DataNode        | DataNode         | DataNode           | DataNode
+|                                      | ResourceManager |                  |                    |
+|                                      |SecondaryNameNode|                  |                    |
 |[Hbase1.1.2](http://hbase.apache.org/)|                 |                  | HMaster            |
-|          |                 |                  | HRegionServer      | HRegionServer
-|[Zookeeper](http://zookeeper.apache.org/) |                 |                  |                    | QuorumPeerMain
+|                                      |                 |                  | HRegionServer      | HRegionServer
+|[Zookeeper](http://zookeeper.apache.org/)|              |                  |                    | QuorumPeerMain
 |[Spark 1.5](http://spark.apache.org/) |                 | Master           |                    |
-|          | Worker          | Worker           | Worker             | Worker
-|[MariaDB](https://mariadb.com/)   |                 | mysqld           |                    |
+|                                      | Worker          | Worker           | Worker             | Worker
+|[MariaDB](https://mariadb.com/)       |                 | mysqld           |                    |
 
 ## DB 와 HBase 스키마
 ```
