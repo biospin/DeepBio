@@ -66,7 +66,8 @@ CREATE TABLE IF NOT EXISTS file_manifest (
   `file_name` VARCHAR(512) NOT NULL,
   `reg_dt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP  ,
   PRIMARY KEY (`id`),
-  index file_manifefile_annotationsst_barcode_idx(barcode) 
+  index file_manifefile_annotationsst_barcode_idx(barcode), 
+  index file_manifefile_annotationsst_disease_idx(disease)
 )
 ENGINE = InnoDB;
 
@@ -84,6 +85,7 @@ CREATE TABLE IF NOT EXISTS file_annotations (
   `annotation` VARCHAR(4096) NOT NULL,
   `reg_dt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP  ,
   PRIMARY KEY (`id`),
+  index file_annotations_disease_idx(disease) ,
   index file_annotations_barcode_idx(item_barcode) ,
   index file_annotations_uuid_idx(item_uuid) ,
   index file_annotations_date_created_idx(date_created) 
