@@ -109,6 +109,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 - [Theano의 Graph Structures예제에서 발생하는 오류 해결방법](https://github.com/biospin/DeepBio/blob/master/reference/pydot_error.txt)
 - [NVIDA CUDA 드라이버설치 방법](http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/index.html#pre-installation-actions)
 - [우분투 14.04에 NVIDA CUDA 드라이버설치 ] (https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb)
+- [손고리즘ML 발표자료](http://songorithm.github.io/ML/SCHEDULE/ )
 
 ## 스터디 공지
 - [01월 05일  DeepBio:파트 3 - 1회차]( https://www.facebook.com/events/936812833074514/ )
