@@ -179,6 +179,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 |  4 |2016/01/26|(bioPython ) 6장: Phylogenetics 
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  이론 (황성원)
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   
+|    |          |(보강) Tensor (황성원)
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
 
 
