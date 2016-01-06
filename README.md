@@ -168,12 +168,12 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 |seq.| 날 짜           |내용
 |----| ---------|------------------------------------------------|---
 |  1 |2016/01/05|(bioPython )   3장: Working with Genomes (박혜진) | [후기](https://www.facebook.com/groups/biospin/permalink/797665063676711/)
-|    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED (이승우)
+|    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED, 4장 Classifying MNIST digits using Logistic Regression (이승우)
 |  2 |2016/01/12|(bioPython ) 4장: Population Genetics (성민경)
-|    |          |(Theano)  Deeplearning  - 4장 Classifying MNIST digits using Logistic Regression  
+|    |          |(보강) 회귀분석 기초 (김가경)  
 |    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
 |  3 |2016/01/19|(bioPython )   5장: Population Genetics Simulation (이승현)
-|    |          |(Theano) 5장 Multilayer Perceptron  이론  
+|    |          |(Theano) 5장 Multilayer Perceptron  이론   (박혜진)
 |    |          |(Theano) 5장 Multilayer Perceptron  코드설명 및 실습   
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
 |  4 |2016/01/26|(bioPython ) 6장: Phylogenetics 
