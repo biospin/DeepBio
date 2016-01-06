@@ -166,7 +166,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 
 ### Part 3.
 |seq.| 날 짜           |내용
-|----| ---------|----------------------------------------------
+|----| ---------|------------------------------------------------|---
 |  1 |2016/01/05|(bioPython )   3장: Working with Genomes (박혜진) | [후기](https://www.facebook.com/groups/biospin/permalink/797665063676711/)
 |    |          |(Theano)  Deeplearning  - 3장 GETTING STARTED (이승우)
 |  2 |2016/01/12|(bioPython ) 4장: Population Genetics (성민경)
