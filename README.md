@@ -114,8 +114,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 
 
 ### Part 3.
-|seq.| 날 짜           |내용
-|----| ---------|------------------------------------------------|---
+|seq.| 날 짜           |내용                                                                                     | 후기
+|----| ---------|----------------------------------------------|-----
 |  1 |2016/01/05|(bioPython )   [3장: Working with Genomes](https://github.com/biospin/DeepBio/tree/master/part03/Week1_160105/biopython_ch03) (박혜진) | [후기](https://www.facebook.com/groups/biospin/permalink/797665063676711/)
 |    |          |(Theano)  Deeplearning  - [3장 GETTING STARTED](http://www.deeplearning.net/tutorial/gettingstarted.html), [4장 Classifying MNIST digits using Logistic Regression](http://www.deeplearning.net/tutorial/logreg.html) (이승우)
 |  2 |2016/01/12|(bioPython ) [4장: Population Genetics](https://github.com/biospin/DeepBio/tree/master/part03/Week2_160112/biopython04) (성민경) | [후기](https://www.facebook.com/groups/biospin/801156173327600/)
