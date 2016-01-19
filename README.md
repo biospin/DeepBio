@@ -46,59 +46,6 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |                                      | Worker          | Worker           | Worker             | Worker
 |[MariaDB](https://mariadb.com/)       |                 | mysqld           |                    |
 
-## DB 와 HBase 스키마
-```
--- ##############################################################
--- DB 스키마 정의
--- ##############################################################
-CREATE SCHEMA IF NOT EXISTS `deepbioDB` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
-USE `deepbioDB` ;
-
-DROP TABLE IF EXISTS file_manifest ;
-CREATE TABLE IF NOT EXISTS file_manifest (
-  `id`       MEDIUMINT NOT NULL AUTO_INCREMENT,
-  `disease` VARCHAR(10) NOT NULL,
-  `platform_type` VARCHAR(50) NOT NULL,
-  `center` VARCHAR(10) NOT NULL,
-  `platform` VARCHAR(50) NOT NULL,
-  `level` VARCHAR(10) NOT NULL,
-  `barcode` VARCHAR(50) NOT NULL,
-  `file_name` VARCHAR(512) NOT NULL,
-  `reg_dt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP  ,
-  PRIMARY KEY (`id`),
-  index file_manifefile_annotationsst_barcode_idx(barcode), 
-  index file_manifefile_annotationsst_disease_idx(disease)
-)
-ENGINE = InnoDB;
-
-DROP TABLE IF EXISTS file_annotations ;
-CREATE TABLE IF NOT EXISTS file_annotations (
-  `id`       MEDIUMINT NOT NULL ,
-  `disease` VARCHAR(10) NOT NULL,
-  `item_type` VARCHAR(50) NOT NULL,
-  `item_barcode` VARCHAR(50) NOT NULL,
-  `item_uuid` VARCHAR(50) NOT NULL,
-  `classification` VARCHAR(10) NOT NULL,
-  `category` VARCHAR(50) NOT NULL,
-  `annotator` VARCHAR(50) NOT NULL,
-  `date_created` VARCHAR(20) NOT NULL,
-  `annotation` VARCHAR(4096) NOT NULL,
-  `reg_dt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP  ,
-  PRIMARY KEY (`id`),
-  index file_annotations_disease_idx(disease) ,
-  index file_annotations_barcode_idx(item_barcode) ,
-  index file_annotations_uuid_idx(item_uuid) ,
-  index file_annotations_date_created_idx(date_created) 
-)
-ENGINE = InnoDB;
-
--- ##############################################################
--- HBASE 스키마 정의
--- ##############################################################
-disable 'mRNA'
-drop 'mRNA'
-create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
-```
 
 ## 참고 자료
 - [Bengio 교수의 딥러닝 강의]( http://goodfeli.github.io/dlbook/ ) - 딥러닝에 대한 깊은 통찰을 얻을 수 있음.
@@ -112,6 +59,8 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 - [손고리즘ML 발표자료](http://songorithm.github.io/ML/SCHEDULE/ )
 
 ## 스터디 공지
+- [01월 19일  DeepBio:파트 3 - 3회차]( https://www.facebook.com/events/1086735191344745/ )
+- [01월 12일  DeepBio:파트 3 - 2회차]( https://www.facebook.com/events/1543658639277708/ )
 - [01월 05일  DeepBio:파트 3 - 1회차]( https://www.facebook.com/events/936812833074514/ )
 - [12월 29일  DeepBio:파트 2 - 4회차]( https://www.facebook.com/events/933396823412578/ )
 - [12월 15일  DeepBio:파트 2 - 3회차]( https://www.facebook.com/events/800304630099060/ )
@@ -169,7 +118,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 |----| ---------|------------------------------------------------|---
 |  1 |2016/01/05|(bioPython )   [3장: Working with Genomes](https://github.com/biospin/DeepBio/tree/master/part03/Week1_160105/biopython_ch03) (박혜진) | [후기](https://www.facebook.com/groups/biospin/permalink/797665063676711/)
 |    |          |(Theano)  Deeplearning  - [3장 GETTING STARTED](http://www.deeplearning.net/tutorial/gettingstarted.html), [4장 Classifying MNIST digits using Logistic Regression](http://www.deeplearning.net/tutorial/logreg.html) (이승우)
-|  2 |2016/01/12|(bioPython ) [4장: Population Genetics](https://github.com/biospin/DeepBio/tree/master/part03/Week2_160112/biopython04) (성민경)
+|  2 |2016/01/12|(bioPython ) [4장: Population Genetics](https://github.com/biospin/DeepBio/tree/master/part03/Week2_160112/biopython04) (성민경) | [후기] (https://www.facebook.com/groups/biospin/801156173327600/)
 |    |          |(보강) 회귀분석 기초 (김가경)  
 |    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
 |  3 |2016/01/19|(bioPython )   5장: Population Genetics Simulation (이승현)
