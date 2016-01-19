@@ -169,7 +169,7 @@ create 'mRNA', {NAME => 'manifest' },  {NAME=>'data', COMPRESSION=>'SNAPPY'}
 |----| ---------|------------------------------------------------|---
 |  1 |2016/01/05|(bioPython )   [3장: Working with Genomes](https://github.com/biospin/DeepBio/tree/master/part03/Week1_160105/biopython_ch03) (박혜진) | [후기](https://www.facebook.com/groups/biospin/permalink/797665063676711/)
 |    |          |(Theano)  Deeplearning  - [3장 GETTING STARTED](http://www.deeplearning.net/tutorial/gettingstarted.html), [4장 Classifying MNIST digits using Logistic Regression](http://www.deeplearning.net/tutorial/logreg.html) (이승우)
-|  2 |2016/01/12|(bioPython ) 4장: Population Genetics (성민경)
+|  2 |2016/01/12|(bioPython ) [4장: Population Genetics](https://github.com/biospin/DeepBio/tree/master/part03/Week2_160112/biopython04) (성민경)
 |    |          |(보강) 회귀분석 기초 (김가경)  
 |    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - 암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb) 
 |  3 |2016/01/19|(bioPython )   5장: Population Genetics Simulation (이승현)
