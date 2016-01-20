@@ -1,0 +1,55 @@
+Downloading data from http://www.iro.umontreal.ca/~lisa/deep/data/mnist/mnist.pkl.gz
+... loading data
+... building the model
+... training
+epoch 1, minibatch 2500/2500, validation error 9.620000 %
+     epoch 1, minibatch 2500/2500, test error of best model 10.090000 %
+epoch 2, minibatch 2500/2500, validation error 8.610000 %
+     epoch 2, minibatch 2500/2500, test error of best model 8.740000 %
+epoch 3, minibatch 2500/2500, validation error 8.000000 %
+     epoch 3, minibatch 2500/2500, test error of best model 8.160000 %
+epoch 4, minibatch 2500/2500, validation error 7.600000 %
+     epoch 4, minibatch 2500/2500, test error of best model 7.790000 %
+epoch 5, minibatch 2500/2500, validation error 7.300000 %
+     epoch 5, minibatch 2500/2500, test error of best model 7.590000 %
+epoch 6, minibatch 2500/2500, validation error 7.020000 %
+     epoch 6, minibatch 2500/2500, test error of best model 7.200000 %
+epoch 7, minibatch 2500/2500, validation error 6.680000 %
+     epoch 7, minibatch 2500/2500, test error of best model 6.990000 %
+epoch 8, minibatch 2500/2500, validation error 6.260000 %
+     epoch 8, minibatch 2500/2500, test error of best model 6.730000 %
+epoch 9, minibatch 2500/2500, validation error 5.970000 %
+     epoch 9, minibatch 2500/2500, test error of best model 6.510000 %
+epoch 10, minibatch 2500/2500, validation error 5.740000 %
+     epoch 10, minibatch 2500/2500, test error of best model 6.190000 %
+epoch 11, minibatch 2500/2500, validation error 5.400000 %
+     epoch 11, minibatch 2500/2500, test error of best model 5.900000 %
+epoch 12, minibatch 2500/2500, validation error 5.080000 %
+     epoch 12, minibatch 2500/2500, test error of best model 5.600000 %
+epoch 13, minibatch 2500/2500, validation error 4.820000 %
+     epoch 13, minibatch 2500/2500, test error of best model 5.400000 %
+epoch 14, minibatch 2500/2500, validation error 4.690000 %
+     epoch 14, minibatch 2500/2500, test error of best model 5.280000 %
+epoch 15, minibatch 2500/2500, validation error 4.470000 %
+     epoch 15, minibatch 2500/2500, test error of best model 5.140000 %
+epoch 16, minibatch 2500/2500, validation error 4.350000 %
+     epoch 16, minibatch 2500/2500, test error of best model 4.890000 %
+epoch 17, minibatch 2500/2500, validation error 4.130000 %
+     epoch 17, minibatch 2500/2500, test error of best model 4.700000 %
+epoch 18, minibatch 2500/2500, validation error 4.040000 %
+     epoch 18, minibatch 2500/2500, test error of best model 4.540000 %
+epoch 19, minibatch 2500/2500, validation error 3.910000 %
+     epoch 19, minibatch 2500/2500, test error of best model 4.420000 %
+epoch 20, minibatch 2500/2500, validation error 3.780000 %
+     epoch 20, minibatch 2500/2500, test error of best model 4.260000 %
+epoch 21, minibatch 2500/2500, validation error 3.700000 %
+     epoch 21, minibatch 2500/2500, test error of best model 4.150000 %
+epoch 22, minibatch 2500/2500, validation error 3.610000 %
+     epoch 22, minibatch 2500/2500, test error of best model 4.000000 %
+epoch 23, minibatch 2500/2500, validation error 3.540000 %
+     epoch 23, minibatch 2500/2500, test error of best model 3.910000 %
+epoch 24, minibatch 2500/2500, validation error 3.480000 %
+     epoch 24, minibatch 2500/2500, test error of best model 3.790000 %
+epoch 25, minibatch 2500/2500, validation error 3.400000 %
+     epoch 25, minibatch 2500/2500, test error of best model 3.710000 %
+
