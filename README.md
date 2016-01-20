@@ -125,7 +125,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |  3 |2016/01/19|(bioPython )   [5장: Population Genetics Simulation](https://github.com/biospin/DeepBio/tree/master/part03/Week2_160119/04_PopSim) (이승현)| [후기](https://www.facebook.com/groups/biospin/permalink/804263823016835/)
 |    |          |(Theano) 5장 Multilayer Perceptron  이론   (박혜진)
 |    |          |(Theano) [5장 Multilayer Perceptron  코드설명 및 실습](http://www.deeplearning.net/tutorial/mlp.html)   
-|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리
+|    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_make_feature.ipynb)
 |  4 |2016/01/26|(bioPython ) 6장: Phylogenetics 
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  이론 (황성원)
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   
