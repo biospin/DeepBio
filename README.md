@@ -126,7 +126,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano) [5장 Multilayer Perceptron  이론   (박혜진)](https://github.com/biospin/DeepBio/blob/master/part03/Week2_160119/MLP/chap4.pdf)
 |    |          |(Theano) [5장 Multilayer Perceptron  코드설명 및 실습](https://github.com/biospin/DeepBio/blob/master/part03/Week2_160119/MLP/MLP_cede.ipynb)   
 |    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리(지용기)](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_make_feature.ipynb)
-|  4 |2016/01/26|(bioPython ) 6장: Phylogenetics 
+|  4 |2016/01/26|(bioPython ) 6장: Phylogenetics (류재면)
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  이론 (황성원)
 |    |          |(Theano) 6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습   
 |    |          |(보강) Tensor (황성원)
@@ -136,21 +136,21 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 ### Part 4.
 |seq.| 날 짜           |내용
 |----| ---------|----------------------------------------------
-|  1 |2016/02/02|(bioPython) 7장: Using the Protein Data Bank
+|  1 |2016/02/02|(bioPython) 7장: Using the Protein Data Bank(박혜진)
 |    |          |(Theano) 7장 Denoising Autoencoders (dA)  이론
 |    |          |(Theano) 7장 Denoising Autoencoders (dA)  코드설명 및 실습 
-|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (1)
+|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (1)(박혜진)
 |  2 |2016/02/16|(bioPython)8장: Other Topics in Bioinformatics
-|    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  이론
+|    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  이론(김가경)
 |    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  코드설명 및 실습 
-|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (2)
-|  3 |2016/02/23|(bioPython) 9장: Python for Big Genomics Datasets
-|    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  이론
+|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (2)(박혜진)
+|  3 |2016/02/23|(bioPython) 9장: Python for Big Genomics Datasets(박혜진)
+|    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  이론(박혜진황성원)
 |    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (1)
-|  4 |2016/03/08|(Theano) 10장 Deep Belief Networks  이론 (황성원)
+|  4 |2016/03/08|(Theano) 10장 Deep Belief Networks  이론 (성민경)
 |    |          |(Theano) 10장 Deep Belief Networks  코드설명 및 실습 
-|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (2)
+|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (2)(성민경)
 
 
 ### Part 5.
