@@ -60,6 +60,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - [손고리즘ML 발표자료](http://songorithm.github.io/ML/SCHEDULE/ )
 
 ## 스터디 공지
+- [02월 02일  DeepBio:파트 4 - 1회차]( https://www.facebook.com/events/1672893513000173/ )
+- [01월 26일  DeepBio:파트 3 - 4회차]( https://www.facebook.com/events/1542666906046268/ )
 - [01월 19일  DeepBio:파트 3 - 3회차]( https://www.facebook.com/events/1086735191344745/ )
 - [01월 12일  DeepBio:파트 3 - 2회차]( https://www.facebook.com/events/1543658639277708/ )
 - [01월 05일  DeepBio:파트 3 - 1회차]( https://www.facebook.com/events/936812833074514/ )
@@ -126,10 +128,11 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano) [5장 Multilayer Perceptron  이론   (박혜진)](https://github.com/biospin/DeepBio/blob/master/part03/Week2_160119/MLP/chap4.pdf)
 |    |          |(Theano) [5장 Multilayer Perceptron  코드설명 및 실습](https://github.com/biospin/DeepBio/blob/master/part03/Week2_160119/MLP/MLP_cede.ipynb)   
 |    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - Data 전처리(지용기)](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_make_feature.ipynb)
-|  4 |2016/01/26|(bioPython ) 6장: Phylogenetics (류재면)
+|  4 |2016/01/26|(bioPython ) 6장: Phylogenetics (류재면)| [후기](https://www.facebook.com/groups/biospin/permalink/807569982686219/)
 |    |          |(Theano) [6장 Convolutional Neural Networks (LeNet)  이론1](https://github.com/biospin/DeepBio/blob/master/part03/Week4_160126/CNN%20%EC%9D%B4%EB%A1%A0%20I_Final.pptx), [CNN 이론2(황성원)](https://github.com/biospin/DeepBio/blob/master/part03/Week4_160126/CNN%20%EC%9D%B4%EB%A1%A0%20II_Final.pptx)
 |    |          |(Theano) [6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습](https://github.com/biospin/DeepBio/blob/master/part03/Week4_160126/CNN%20%EC%BD%94%EB%93%9C%20in%20Theano_Final.pptx)   
 |    |          |(보강) [Tensor (황성원)](https://github.com/biospin/DeepBio/blob/master/part03/Week4_160126/Tensor%20%EA%B8%B0%EC%B4%88_Final.pptx)
+|    |          |(보강) [Tensor 참고자료](https://github.com/biospin/DeepBio/blob/master/part03/Week4_160126/Tensor%20%EC%B0%B8%EA%B3%A0%20%EC%9E%90%EB%A3%8C.PDF)
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
 
 
@@ -137,7 +140,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |seq.| 날 짜           |내용
 |----| ---------|----------------------------------------------
 |  1 |2016/02/02|(bioPython) 7장: Using the Protein Data Bank(박혜진)
-|    |          |(Theano) 7장 Denoising Autoencoders (dA)  이론
+|    |          |(Theano) 7장 Denoising Autoencoders (dA)  이론(지용기)
 |    |          |(Theano) 7장 Denoising Autoencoders (dA)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (1)(박혜진)
 |  2 |2016/02/16|(bioPython)8장: Other Topics in Bioinformatics
