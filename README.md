@@ -139,7 +139,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 ### Part 4.
 |seq.| 날 짜           |내용
 |----| ---------|----------------------------------------------
-|  1 |2016/02/02|(bioPython) 7장: Using the Protein Data Bank(박혜진)
+|  1 |2016/02/02|(bioPython) [7장: Using the Protein Data Bank](https://github.com/biospin/DeepBio/tree/master/part04/Week1_160202/biopython_pdb)(박혜진)
 |    |          |(Theano) [ 7장 Denoising Autoencoders (dA) ](https://github.com/biospin/DeepBio/blob/master/part04/Week1_160202/DenoisingAutoencoders.ipynb)  이론(지용기)
 |    |          |(Theano) 7장 Denoising Autoencoders (dA)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (1)(박혜진)
