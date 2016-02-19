@@ -58,6 +58,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - [NVIDA CUDA 드라이버설치 방법](http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/index.html#pre-installation-actions)
 - [우분투 14.04에 NVIDA CUDA 드라이버설치 ] (https://github.com/biospin/DeepBio/blob/master/reference/00_cuda_install.ipynb)
 - [손고리즘ML 발표자료](http://songorithm.github.io/ML/SCHEDULE/ )
+- [인공신경망과 딥러닝 무료 강좌 한글](http://cyber.dbguide.net/lecture.php?action=view&no=156)
+- [udacity의 Deep Learningr강좌 영어](https://www.udacity.com/course/deep-learning--ud730)
 
 ## 스터디 공지
 - [02월 02일  DeepBio:파트 4 - 1회차]( https://www.facebook.com/events/1672893513000173/ )
