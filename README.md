@@ -149,25 +149,10 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  이론(김가경)
 |    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (2)(박혜진)
-|  3 |2016/02/23|(bioPython) 9장: Python for Big Genomics Datasets(박혜진)
-|    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  이론(황성원)
-|    |          |(Theano) 9장 Restricted Boltzmann Machines (RBM)  코드설명 및 실습 
-|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (1)
-|  4 |2016/03/08|(Theano) 10장 Deep Belief Networks  이론 (성민경)
-|    |          |(Theano) 10장 Deep Belief Networks  코드설명 및 실습 
+|  3 |2016/02/23|(Theano) [9장 Restricted Boltzmann Machines (RBM)  이론](https://github.com/biospin/DeepBio/blob/master/part04/Week3_160223/RBM%20%EC%9D%B4%EB%A1%A0_Final_Final.pptx)(황성원)
+|    |          |(Theano) 10장 Deep Belief Networks  실습 (성민경) 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (2)(성민경)
 
 
-### Part 5.
-|seq.| 날 짜           |내용
-|----| ---------|----------------------------------------------
-|  1 |2016/03/08|(Theano) 11장 Hybrid Monte-Carlo Sampling  이론
-|    |          |(Theano) 11장 Hybrid Monte-Carlo Sampling  코드설명 및 실습 	
-|  2 |2016/03/15|(Theano) 12장 Recurrent Neural Networks with Word Embeddings  이론
-|    |          |(Theano) 12장 Recurrent Neural Networks with Word Embeddings  코드설명 및 실습 	
-|  3 |2016/03/22|(Theano) 13장 LSTM Networks for Sentiment Analysis  이론
-|    |          |(Theano) 13장 LSTM Networks for Sentiment Analysis  코드설명 및 실습 	
-|  4 |2016/03/29|(Theano) 14장 Modeling and generating sequences of polyphonic music with the RNN-RBM  이론
-|    |          |(Theano) 14장 Modeling and generating sequences of polyphonic music with the RNN-RBM  코드설명 및 실습 	
 
   
