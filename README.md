@@ -62,6 +62,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 - [udacity의 Deep Learning강좌 영어](https://www.udacity.com/course/deep-learning--ud730)
 
 ## 스터디 공지
+- [02월 23일  DeepBio:파트 4 - 3회차]( https://www.facebook.com/events/1246827951997544/ )
+- [02월 16일  DeepBio:파트 4 - 2회차]( https://www.facebook.com/events/1020157038021388/ )
 - [02월 02일  DeepBio:파트 4 - 1회차]( https://www.facebook.com/events/1672893513000173/ )
 - [01월 26일  DeepBio:파트 3 - 4회차]( https://www.facebook.com/events/1542666906046268/ )
 - [01월 19일  DeepBio:파트 3 - 3회차]( https://www.facebook.com/events/1086735191344745/ )
@@ -149,8 +151,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  이론(김가경)
 |    |          |(Theano) 8장 Stacked Denoising Autoencoders (SdA)  코드설명 및 실습 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - Multilayer Perceptron을 활용한 모형 개발 (2)(박혜진)
-|  3 |2016/02/23|(Theano) [9장 Restricted Boltzmann Machines (RBM)  이론](https://github.com/biospin/DeepBio/blob/master/part04/Week3_160223/RBM%20%EC%9D%B4%EB%A1%A0_Final_Final.pptx)(황성원)
-|    |          |(Theano) 10장 Deep Belief Networks  실습 (성민경) 
+|  3 |2016/02/23|(Theano) [9장 Restricted Boltzmann Machines (RBM)  이론](https://github.com/biospin/DeepBio/blob/master/part04/Week3_160223/RBM%20%EC%9D%B4%EB%A1%A0_Final_Final.pptx)(황성원)|(발표사진)(https://www.facebook.com/groups/biospin/permalink/821958491247368/)
+|    |          |(Theano) 10장 Deep Belief Networks  실습 (성민경)|(후기)[https://www.facebook.com/groups/biospin/permalink/821976931245524/] 
 |    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - DBN을 활용한 모형 개발 (2)(성민경)
 
 
