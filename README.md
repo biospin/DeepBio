@@ -3,7 +3,7 @@
 <img src="https://github.com/biospin/DeepBio/blob/master/main_04.jpg" width="500" height="300" />
 
 ## 스터디 정보
-파이썬을 이용한 바이오인포매틱스 + 딥러닝에 대한 스터디입니다.
+파이썬을 이용한 바이오인포매틱스 + 딥러닝에 대한 스터디입니다
 
 ## 공유폴더 
 https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
