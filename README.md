@@ -137,7 +137,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfQ1ozTnV0anRqQWc
 |    |          |(Theano) [6장 Convolutional Neural Networks (LeNet)  코드설명 및 실습](https://github.com/biospin/DeepBio/blob/master/part03/Week4_160126/CNN%20%EC%BD%94%EB%93%9C%20in%20Theano_Final.pptx)   
 |    |          |(보강) [Tensor (황성원)](https://github.com/biospin/DeepBio/blob/master/part03/Week4_160126/Tensor%20%EA%B8%B0%EC%B4%88_Final.pptx)
 |    |          |(보강) [Tensor 참고자료](https://github.com/biospin/DeepBio/blob/master/part03/Week4_160126/Tensor%20%EC%B0%B8%EA%B3%A0%20%EC%9E%90%EB%A3%8C.PDF)
-|    |          |(실습) 암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발
+|    |          |(실습) [암 환자 RNA정보를 활용한 암 예측 모델 개발 - 회귀모형을 활용한 모형 개발(박혜진)](https://github.com/biospin/DeepBio/blob/master/exercise01/logisticRegression.py)
 
 
 ### Part 4.
